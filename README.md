@@ -12,34 +12,40 @@ This project uses TF-Luna LiDAR, Raspberry Pi, and Machine Learning to detect po
 - Random Forest Classifier
 - Embedded Systems
 - Automatic Braking
-
 ## Project Screenshots
 
 ### Block Diagram
+[🔍 View Full Image](screenshots/Block%20diagram%20of%20proposed%20system.jpg)
 
 ![Block Diagram](screenshots/Block%20diagram%20of%20proposed%20system.jpg)
 
 ### Time-of-Flight Principle
+[🔍 View Full Image](screenshots/TIME-OF-FLIGHT%20MEASUREMENT%20PRINCIPLE.jpg)
 
 ![TOF](screenshots/TIME-OF-FLIGHT%20MEASUREMENT%20PRINCIPLE.jpg)
 
 ### Flat Surface Detection
+[🔍 View Full Image](screenshots/FLAT%20SURFACE%20%E2%80%94%20NORMAL%20DISTANCE%20MEASUREMENT.jpg)
 
 ![Flat Surface](screenshots/FLAT%20SURFACE%20%E2%80%94%20NORMAL%20DISTANCE%20MEASUREMENT.jpg)
 
 ### Pothole Detection
+[🔍 View Full Image](screenshots/POTHOLE%20DETECTION.jpg)
 
 ![Pothole Detection](screenshots/POTHOLE%20DETECTION.jpg)
 
 ### Random Forest Classifier
+[🔍 View Full Image](screenshots/RANDOM%20FOREST%20CLASSIFIER.jpg)
 
 ![Random Forest](screenshots/RANDOM%20FOREST%20CLASSIFIER.jpg)
 
 ### System Flowchart
+[🔍 View Full Image](screenshots/FLOW%20CHART%20OF%20PROPOSED%20SYSTEM.jpg)
 
 ![Flowchart](screenshots/FLOW%20CHART%20OF%20PROPOSED%20SYSTEM.jpg)
 
 ### Distance Measurement Results
+[🔍 View Full Image](screenshots/DISTANCE%20MEASUREMENT%20GRAPH%20%E2%80%94%20NORMAL%20vs%20POTHOLE%20CONDITIONS.jpg)
 
 ![Results](screenshots/DISTANCE%20MEASUREMENT%20GRAPH%20%E2%80%94%20NORMAL%20vs%20POTHOLE%20CONDITIONS.jpg)
 
