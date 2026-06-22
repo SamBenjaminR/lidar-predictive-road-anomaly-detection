@@ -2,118 +2,66 @@
 
 ## Overview
 
-This project uses TF-Luna LiDAR, Raspberry Pi 4, and Machine Learning to detect potholes, bumps, and road surface anomalies in real time. The system predicts hazardous road conditions and automatically activates braking to improve vehicle safety.
+This project uses a TF-Luna LiDAR sensor, Raspberry Pi, and Machine Learning to detect potholes, bumps, and road surface anomalies in real time. Based on the detected road condition, the system automatically initiates braking to improve vehicle safety.
 
 ## Hardware Components
 
-- Raspberry Pi 4 Model B
+- Raspberry Pi
 - TF-Luna LiDAR Sensor
 - L298N Motor Driver
+- DC Geared Motors
 - SG90 Servo Motor
-- DC Gear Motors
-- LM2596 Buck Converter
 - Wheel Encoder
-- Li-Po Battery
+- Battery Supply
 
 ## Technologies Used
 
 - Python
-- LiDAR Sensing
-- Time-of-Flight Measurement
-- Random Forest Machine Learning
-- Embedded Systems
+- LiDAR
 - Raspberry Pi
-
-## Working Principle
-
-1. TF-Luna LiDAR continuously measures road distance.
-2. Raspberry Pi processes sensor readings.
-3. Features are extracted from distance data.
-4. Random Forest classifies road conditions.
-5. Stopping distance is calculated.
-6. Automatic braking is activated when required.
-
----
+- Random Forest Classifier
+- Embedded Systems
+- Automatic Braking System
 
 ## Block Diagram
 
-![Block Diagram](screenshots/block_diagram.jpg)
-
-The complete system architecture showing sensing, processing, braking, and drive control units.
-
----
+![Block Diagram](Block%20diagram%20of%20proposed%20system.jpg)
 
 ## Time-of-Flight Measurement Principle
 
-![Time of Flight](screenshots/time_of_flight_principle.jpg)
-
-The TF-Luna LiDAR calculates distance using the Time-of-Flight (ToF) principle:
-
-D = (c × T) / 2
-
-where:
-- D = Distance
-- c = Speed of light
-- T = Round-trip travel time
-
----
+![ToF](TIME-OF-FLIGHT%20MEASUREMENT%20PRINCIPLE.jpg)
 
 ## Flat Surface Detection
 
-![Flat Surface](screenshots/flat_surface_measurement.jpg)
-
-Normal road conditions produce stable distance readings that establish the baseline reference distance.
-
----
+![Flat Surface](FLAT%20SURFACE%20%E2%80%94%20NORMAL%20DISTANCE%20MEASUREMENT.jpg)
 
 ## Pothole Detection
 
-![Pothole Detection](screenshots/pothole_detection.jpg)
-
-When the measured distance increases beyond the baseline threshold, the system detects a pothole and evaluates braking requirements.
-
----
+![Pothole Detection](POTHOLE%20DETECTION.jpg)
 
 ## Random Forest Classifier
 
-![Random Forest](screenshots/random_forest_classifier.jpg)
+![Random Forest](RANDOM%20FOREST%20CLASSIFIER.jpg)
 
-Machine Learning model trained to classify:
+## System Flow Chart
 
-- Normal Road
-- Bump
-- Pothole
-
-based on extracted LiDAR features.
-
----
-
-## System Flowchart
-
-![Flowchart](screenshots/flowchart.jpg)
-
-Complete processing pipeline:
-
-LiDAR Acquisition → Surface Analysis → Feature Extraction → Random Forest Classification → Braking Decision
-
----
+![Flowchart](FLOW%20CHART%20OF%20PROPOSED%20SYSTEM.jpg)
 
 ## Distance Measurement Results
 
-![Distance Graph](screenshots/distance_measurement_graph.jpg)
+![Results](DISTANCE%20MEASUREMENT%20GRAPH%20%E2%80%94%20NORMAL%20vs%20POTHOLE%20CONDITIONS.jpg)
 
-Experimental results showing measured distances for:
+## Key Features
 
-- Normal Surface
-- Small Pothole
-- Medium Pothole
-- Deep Pothole
-
----
+- Real-time road anomaly detection
+- Pothole and bump classification
+- Random Forest-based prediction
+- Automatic braking control
+- LiDAR-based distance measurement
 
 ## Project Report
 
-📄 [View Full Report](LiDAR_Project_Report.pdf)
+📄 LiDAR Project Report Available in Repository
 
 ## Author
 
