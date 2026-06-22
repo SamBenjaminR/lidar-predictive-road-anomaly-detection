@@ -2,62 +2,46 @@
 
 ## Overview
 
-This project uses a TF-Luna LiDAR sensor, Raspberry Pi, and Machine Learning to detect potholes, bumps, and road surface anomalies in real time. Based on the detected road condition, the system automatically initiates braking to improve vehicle safety.
-
-## Hardware Components
-
-- Raspberry Pi
-- TF-Luna LiDAR Sensor
-- L298N Motor Driver
-- DC Geared Motors
-- SG90 Servo Motor
-- Wheel Encoder
-- Battery Supply
+This project uses TF-Luna LiDAR, Raspberry Pi, and Machine Learning to detect potholes and road surface anomalies in real time and automatically initiate braking for vehicle safety.
 
 ## Technologies Used
 
-- Python
-- LiDAR
 - Raspberry Pi
+- TF-Luna LiDAR
+- Python
 - Random Forest Classifier
 - Embedded Systems
-- Automatic Braking System
+- Automatic Braking
 
-## Block Diagram
+## Project Screenshots
 
-![Block Diagram](Block%20diagram%20of%20proposed%20system.jpg)
+### Block Diagram
 
-## Time-of-Flight Measurement Principle
+![Block Diagram](screenshots/Block%20diagram%20of%20proposed%20system.jpg)
 
-![ToF](TIME-OF-FLIGHT%20MEASUREMENT%20PRINCIPLE.jpg)
+### Time-of-Flight Principle
 
-## Flat Surface Detection
+![TOF](screenshots/TIME-OF-FLIGHT%20MEASUREMENT%20PRINCIPLE.jpg)
 
-![Flat Surface](FLAT%20SURFACE%20%E2%80%94%20NORMAL%20DISTANCE%20MEASUREMENT.jpg)
+### Flat Surface Detection
 
-## Pothole Detection
+![Flat Surface](screenshots/FLAT%20SURFACE%20%E2%80%94%20NORMAL%20DISTANCE%20MEASUREMENT.jpg)
 
-![Pothole Detection](POTHOLE%20DETECTION.jpg)
+### Pothole Detection
 
-## Random Forest Classifier
+![Pothole Detection](screenshots/POTHOLE%20DETECTION.jpg)
 
-![Random Forest](RANDOM%20FOREST%20CLASSIFIER.jpg)
+### Random Forest Classifier
 
-## System Flow Chart
+![Random Forest](screenshots/RANDOM%20FOREST%20CLASSIFIER.jpg)
 
-![Flowchart](FLOW%20CHART%20OF%20PROPOSED%20SYSTEM.jpg)
+### System Flowchart
 
-## Distance Measurement Results
+![Flowchart](screenshots/FLOW%20CHART%20OF%20PROPOSED%20SYSTEM.jpg)
 
-![Results](DISTANCE%20MEASUREMENT%20GRAPH%20%E2%80%94%20NORMAL%20vs%20POTHOLE%20CONDITIONS.jpg)
+### Distance Measurement Results
 
-## Key Features
-
-- Real-time road anomaly detection
-- Pothole and bump classification
-- Random Forest-based prediction
-- Automatic braking control
-- LiDAR-based distance measurement
+![Results](screenshots/DISTANCE%20MEASUREMENT%20GRAPH%20%E2%80%94%20NORMAL%20vs%20POTHOLE%20CONDITIONS.jpg)
 
 ## Project Report
 
