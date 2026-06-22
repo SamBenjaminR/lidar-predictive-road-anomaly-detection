@@ -61,7 +61,7 @@ This project uses a TF-Luna LiDAR sensor, Raspberry Pi, and Machine Learning to 
 
 ## Project Report
 
-📄 LiDAR Project Report Available in Repository
+📄 [View Full Report](LiDAR_Project_Report.pdf)
 
 ## Author
 
